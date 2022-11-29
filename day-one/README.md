@@ -1,38 +1,37 @@
 Objective
 
-Today, we're discussing data types. Check out the attached tutorial for more details.
+In this challenge, we practice using arithmetic operators. Check out the attached tutorial for resources.
 
 Task
 
-Variables named , , and  are declared for you in the editor below. You must use the  operator to perform the following sequence of operations:
+Complete the following functions in the editor below:
+(!This is an image)[./images/image-three.png]
+getArea(length, width): Calculate and return the area of a rectangle having sides  and .
+getPerimeter(length, width): Calculate and return the perimeter of a rectangle having sides  and .
+The values returned by these functions are printed to stdout by locked stub code in the editor.
 
-Convert  to an integer (Number type), then sum it with  and print the result on a new line using console.log.
-Convert  to a floating-point number (Number type), then sum it with  and print the result on a new line using console.log.
-Print the concatenation of  and  on a new line using console.log. Note that  must be printed first.
 Input Format
+(!This is an image)[./images/image-one.png]
+Constraints
 
-Data Type	Parameter	Description
-string		The string representation of an integer you must sum with .
-string		The string representation of a floating-point number you must sum with .
-string		A string of one or more space-separated words you must append to .
+ and  are scaled to at most three decimal places.
 Output Format
 
-Print the following three lines of output:
+(!This is an image)[./images/image-two.png]
 
-On the first line, print the sum of  and the integer representation of .
-On the second line, print the sum of  and the floating-point representation of .
-On the third line, print  concatenated with . You must print  before .
 Sample Input 0
 
-12
-4.32
-is the best place to learn and practice coding!
+3
+4.5
 Sample Output 0
 
-16
-8.32
-HackerRank is the best place to learn and practice coding!
+13.5
+15
 Explanation 0
 
-When we sum the integers  and , we get the integer .
-When we sum the floating-point numbers  and , we get . When we concatenate HackerRank with is the best place to learn and practice coding!, we get HackerRank is the best place to learn and practice coding!.
+The area of the rectangle is:
+```
+length X width = 3 x 4.5 = 13.5
+```
+The perimeter of the rectangle is 
+```.
